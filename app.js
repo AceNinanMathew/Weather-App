@@ -76,6 +76,9 @@ async function fetchWeatherData(city){
         `;
         
         }
+        else{
+            alert("Enter a valid city!!!")
+        }
     } catch(err) {
         console.log(err);
         alert("Failed to fetch weather data. Please try again later.");
